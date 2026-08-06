@@ -1,0 +1,6 @@
+{
+  "name": "Nexoraa Support Portal",
+  "description": "Full Stack Customer Support Ticket System with Spring Boot backend structure, JWT authentication, role-based access control, and React frontend.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

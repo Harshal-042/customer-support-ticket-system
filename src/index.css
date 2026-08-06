@@ -1,0 +1,63 @@
+/* Global CSS Reset & Base Theme for Student Support Desk */
+
+:root {
+  --primary-blue: #1a56db;
+  --primary-blue-hover: #1e429f;
+  --light-blue-bg: #ebf5ff;
+  --dark-text: #1f2937;
+  --muted-text: #6b7280;
+  --light-gray-bg: #f9fafb;
+  --card-bg: #ffffff;
+  --border-color: #e5e7eb;
+  
+  --status-open-bg: #def7ec;
+  --status-open-text: #03543f;
+  --status-progress-bg: #feecdc;
+  --status-progress-text: #b43403;
+  --status-resolved-bg: #e1effe;
+  --status-resolved-text: #1e429f;
+  --status-closed-bg: #f3f4f6;
+  --status-closed-text: #4b5563;
+
+  --priority-high-bg: #fde8e8;
+  --priority-high-text: #9b1c1c;
+  --priority-medium-bg: #fef08a;
+  --priority-medium-text: #713f12;
+  --priority-low-bg: #e1effe;
+  --priority-low-text: #1e429f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--light-gray-bg);
+  color: var(--dark-text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--primary-blue);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+input, select, textarea {
+  font-family: inherit;
+  font-size: 0.95rem;
+}

@@ -1,0 +1,234 @@
+.ticket-details-page {
+  padding: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.details-top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  color: #4b5563;
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.back-link:hover {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+.details-ticket-id {
+  font-family: monospace;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--primary-blue);
+  background-color: var(--light-blue-bg);
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+.ticket-details-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  padding: 28px;
+}
+
+.ticket-header-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f3f4f6;
+  flex-wrap: wrap;
+}
+
+.ticket-title-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 700px;
+}
+
+.ticket-main-title {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.3;
+}
+
+.ticket-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.agent-status-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f9fafb;
+  padding: 8px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+}
+
+.control-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #4b5563;
+}
+
+.status-dropdown-large {
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+  color: #1f2937;
+}
+
+.ticket-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.meta-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.meta-icon {
+  color: var(--primary-blue);
+  margin-top: 2px;
+}
+
+.meta-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #9ca3af;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.meta-value {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.assign-select-inline {
+  padding: 4px 8px;
+  font-size: 0.82rem;
+  border-radius: 4px;
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+  margin-top: 2px;
+}
+
+.problem-description-box {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 18px;
+  margin-bottom: 20px;
+}
+
+.desc-box-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #374151;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.desc-box-text {
+  font-size: 0.95rem;
+  color: #1f2937;
+  line-height: 1.55;
+  white-space: pre-wrap;
+}
+
+.ai-suggestion-banner {
+  background-color: #f0f9ff;
+  border: 1px solid #bae6fd;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin-bottom: 20px;
+}
+
+.banner-title-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #0369a1;
+  margin-bottom: 6px;
+}
+
+.banner-body {
+  font-size: 0.88rem;
+  color: #0f172a;
+  line-height: 1.45;
+}
+
+.ticket-error-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 40px 20px;
+  text-align: center;
+  max-width: 480px;
+  margin: 40px auto;
+}
+
+.error-icon {
+  color: #dc2626;
+  margin-bottom: 12px;
+}
+
+.ticket-error-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.ticket-error-card p {
+  font-size: 0.88rem;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+.back-btn-solid {
+  background-color: var(--primary-blue);
+  color: #ffffff;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 0.88rem;
+  font-weight: 600;
+}

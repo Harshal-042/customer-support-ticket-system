@@ -1,0 +1,33 @@
+.status-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-open {
+  background-color: var(--status-open-bg);
+  color: var(--status-open-text);
+  border: 1px solid #bcf0da;
+}
+
+.status-in_progress {
+  background-color: var(--status-progress-bg);
+  color: var(--status-progress-text);
+  border: 1px solid #fbd5c0;
+}
+
+.status-resolved {
+  background-color: var(--status-resolved-bg);
+  color: var(--status-resolved-text);
+  border: 1px solid #c3ddfd;
+}
+
+.status-closed {
+  background-color: var(--status-closed-bg);
+  color: var(--status-closed-text);
+  border: 1px solid #e5e7eb;
+}

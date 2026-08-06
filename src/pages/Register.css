@@ -1,0 +1,106 @@
+.register-page {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: var(--light-gray-bg);
+}
+
+.register-card {
+  width: 100%;
+  max-width: 460px;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+  padding: 32px 28px;
+}
+
+.register-card-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.register-logo {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: var(--light-blue-bg);
+  color: var(--primary-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px auto;
+}
+
+.register-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 4px;
+}
+
+.register-subtitle {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.register-error-alert {
+  background-color: #fde8e8;
+  border: 1px solid #f8b4b4;
+  color: #9b1c1c;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.role-select {
+  width: 100%;
+  padding: 10px 12px 10px 38px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  outline: none;
+  font-size: 0.9rem;
+  color: #111827;
+  background-color: #ffffff;
+}
+
+.register-submit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--primary-blue);
+  color: #ffffff;
+  padding: 11px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-top: 8px;
+  transition: background-color 0.15s ease;
+}
+
+.register-submit-btn:hover:not(:disabled) {
+  background-color: var(--primary-blue-hover);
+}
+
+.register-submit-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.register-card-footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #6b7280;
+}

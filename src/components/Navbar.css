@@ -1,0 +1,198 @@
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.brand-icon {
+  color: var(--primary-blue);
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #111827;
+  letter-spacing: -0.3px;
+}
+
+.brand-subtitle {
+  font-size: 0.75rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.fast-role-switch {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #f3f4f6;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+
+.fast-switch-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #4b5563;
+  margin-right: 4px;
+}
+
+.fast-btn {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  color: #374151;
+  padding: 3px 8px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all 0.15s ease;
+}
+
+.fast-btn:hover {
+  background-color: #e5e7eb;
+}
+
+.fast-btn.active {
+  background-color: var(--primary-blue);
+  color: #ffffff;
+  border-color: var(--primary-blue);
+}
+
+.user-profile-summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 10px;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+}
+
+.user-avatar-icon {
+  color: #4b5563;
+}
+
+.user-meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.nav-role-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.role-admin {
+  color: #9333ea;
+}
+
+.role-agent {
+  color: #0284c7;
+}
+
+.role-customer {
+  color: #16a34a;
+}
+
+.profile-btn {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #374151;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.profile-btn:hover {
+  background-color: #f3f4f6;
+  text-decoration: none;
+}
+
+.logout-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #dc2626;
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.15s ease;
+}
+
+.logout-btn:hover {
+  background-color: #fee2e2;
+}
+
+.navbar-auth-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-login-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary-blue);
+  padding: 6px 14px;
+}
+
+.nav-register-btn {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: var(--primary-blue);
+  padding: 6px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.nav-register-btn:hover {
+  background-color: var(--primary-blue-hover);
+  text-decoration: none;
+}
